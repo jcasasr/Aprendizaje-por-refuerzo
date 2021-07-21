@@ -8,3 +8,7 @@ Este repositorio incluye ejemplos resueltos de los siguientes módulos didáctic
 - Módulo 6: Métodos de Diferencia Temporal
 - Módulo 9: Deep Q-Networks
 - Módulo 10: Gradientes de Política
+
+La estructura del contenido es el siguiente:
+- [ca](./ca/): Notebooks de ejemplo en catalán
+- [es](./es/): Notebooks de ejemplo en castellano
