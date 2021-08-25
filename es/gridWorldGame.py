@@ -35,8 +35,8 @@ class Grid: # Environment
                 self.j += 1
             elif action == 'L':
                 self.j -= 1
-    # return a reward (if any)
-    return self.rewards.get((self.i, self.j), 0)
+        # return a reward (if any)
+        return self.rewards.get((self.i, self.j), 0)
 
     def undo_move(self, action):
         # these are the opposite of what U/D/L/R should normally do
