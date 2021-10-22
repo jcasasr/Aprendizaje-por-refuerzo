@@ -1,5 +1,7 @@
 # Aprendizaje por refuerzo
 
+## Máster Universitario en Ciencia de Datos (_Data Science_)
+
 Ejercicios resueltos de la asignatura "Aprendizaje por refuerzo" del __Máster Universitario en Ciencia de Datos (_Data Science_)__ de la Universitat Oberta de Catalunya (UOC):
 https://estudios.uoc.edu/es/masters-universitarios/data-science/presentacion
 
@@ -18,7 +20,7 @@ Los módulos didácticos son:
 - [Módulo 10: Gradientes de Política](./M10/)
 - Módulo 11. El método actor-crítico
 
-Dentro de cada carpeta de este respositorio se pueden encontrar uno o más ejemplos relacionados con el módulo. El idioma de los ejemplos se indica mediante una sufijo en cada notebook, indicando si se trata de ejemplos en catalán, castellano o inglés según la siguiente nomenclatura
+Dentro de cada carpeta de este respositorio se pueden encontrar uno o más ejemplos relacionados con el módulo. El idioma de los ejemplos se indica mediante una sufijo en cada notebook, indicando si se trata de ejemplos en catalán, castellano o inglés según la siguiente nomenclatura:
 - _[ca]_: Notebooks de ejemplo en catalán
 - _[es]_: Notebooks de ejemplo en castellano
 - _[en]_: Notebooks de ejemplo en inglés
