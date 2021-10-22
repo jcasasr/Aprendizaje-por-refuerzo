@@ -1,4 +1,4 @@
-# Aprendizaje por refuerzo
+# Aprendizaje por refuerzo (_Reinforcement learning_)
 
 ## Máster Universitario en Ciencia de Datos (_Data Science_)
 
