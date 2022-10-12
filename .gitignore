@@ -3,3 +3,4 @@
 .ipynb_checkpoints
 output.txt
 **/env
+**/__pycache__/
