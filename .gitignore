@@ -2,3 +2,5 @@
 .DS_Store
 .ipynb_checkpoints
 output.txt
+**/env
+**/__pycache__/
