@@ -3,3 +3,5 @@
 output.txt
 /env
 /.idea
+desktop.ini
+__pycache__
