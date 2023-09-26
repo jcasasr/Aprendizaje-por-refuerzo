@@ -1,5 +1,5 @@
-import gym
-from gym import spaces
+import gymnasium as gym
+from gymnasium import spaces
 
 
 class WindyGridworldEnv(gym.Env):
@@ -17,7 +17,7 @@ class WindyGridworldEnv(gym.Env):
                 2: (1, 0),   # down
                 3: (0, -1),  # left
                 }
-
+        self.info = None
         # begin in start state
         self.reset()
 
@@ -35,9 +35,9 @@ class WindyGridworldEnv(gym.Env):
                   min(self.S[1], self.width - 1))
 
         if self.S == (3, 7):
-            return self.S, -1, True, {}
-        return self.S, -1, False, {}
+            return self.S, -1, True, False, self.info
+        return self.S, -1, False, False, self.info
 
     def reset(self):
         self.S = (3, 0)
-        return self.S
+        return self.S, self.info
